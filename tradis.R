@@ -11,7 +11,7 @@ library(dplyr)
 library(stringr)
 
 
-dir="/Users/davidmoyanopalazuelo/Library/CloudStorage/Dropbox/proyectos/prueba_que_los_scripts_de_github_funcionan_bien/"
+dir="path/to/folder"
 setwd(dir)
 
 #load the data
