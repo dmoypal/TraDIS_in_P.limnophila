@@ -13,6 +13,7 @@ Then, download the [raw data](https://doi.org/10.6084/m9.figshare.24249346) and 
 5. ```stats_essentiality.sh```
 6. ```domain_essential.py```
 
+You will also need the genome of interest, in this case that of P. limnophila, in .gff3 and .fna format. For this .fna, you will need to create a bowtie index using ```bowtie2-build```. See bowtie2 [documentation](https://bowtie-bio.sourceforge.net/manual.shtml#the-bowtie-build-indexer).
 ## Credits
 
 This project has been developed thanks to the effort and contribution of the following individuals:
