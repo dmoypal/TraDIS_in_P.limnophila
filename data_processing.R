@@ -17,7 +17,7 @@ library(GenomicFeatures)
 
 
 ## calculate insertion points and create bed
-dir="/Users/davidmoyanopalazuelo/Dropbox/proyectos/prueba_que_los_scripts_de_github_funcionan_bien/"
+dir="path/to/folder"
 bam_file="trimmed2_t2_b2_all.sorted.dedup.bam"
 aln_nodup1 <- readGAlignments(paste0(dir,bam_file))
 insertions1 <- as.data.frame(aln_nodup1) %>% 
