@@ -5,14 +5,15 @@
 #BiocManager::install("GenomicAlignments", force = TRUE)
 #BiocManager::install("GenomicFeatures", force = TRUE)
 #install.packages("tidyverse")
-#install.packages("furrr")
 #install.packages("future")
+#install.packages("furrr")
 
 library(tidyverse)
-library(furrr)
 library(future)
+library(furrr)
 library(GenomicAlignments)
 library(GenomicFeatures)
+
 
 
 ## calculate insertion points and create bed

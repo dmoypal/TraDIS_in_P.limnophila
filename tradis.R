@@ -2,14 +2,14 @@
 
 #install.packages("MASS")
 #install.packages("fitdistrplus")
-#install.packages("survival")
 #install.packages("dplyr")
+#install.packages("stringr")
 
-library(survival)
 library(MASS)
 library(fitdistrplus)
 library(dplyr)
 library(stringr)
+
 
 dir="/Users/davidmoyanopalazuelo/Library/CloudStorage/Dropbox/proyectos/prueba_que_los_scripts_de_github_funcionan_bien/"
 setwd(dir)
