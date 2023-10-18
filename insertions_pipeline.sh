@@ -19,7 +19,7 @@ echo -e "\033[32mDONE\033[0m"
 echo -e "\n\n"
 
 
-#Align the trimmed read sequences to the reference genome with Bowtie2
+#Align the trimmed read sequences to the reference genome with Bowtie2, you will need to create an index with Bowtie2 for your genome
 echo "Aligning sequences with bowtie2..."
 bowtie2 -p 10 -x genomebowtieindex/GCA_000092105.1_ASM9210v1_genomic -U all_data.only_trans.trimmer.no_adapt.fastq -S trimmed_t2_b2_all.sam
 echo -e "\n\n\n"
