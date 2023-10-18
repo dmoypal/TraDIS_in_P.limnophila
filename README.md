@@ -5,7 +5,7 @@ In this repository you can find the code used for processing the raw sequence da
 
 # How to use the code
 Make sure all the necessary programs and packages are installed. 
-Then, download the raw data [(here)]([https://doi.org/10.6084/m9.figshare.24249346]) and run in the following order: 
+Then, download the raw data [(here)](https://doi.org/10.6084/m9.figshare.24249346) and run in the following order: 
 1. insertions_pipeline.sh
 2. data_processing.R
 3. stats_insertions.sh
