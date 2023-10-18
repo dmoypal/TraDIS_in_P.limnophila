@@ -4,7 +4,7 @@
 In this repository you can find the code used for processing the raw sequence data, and for predicting essential genes using TraDIS in *P. limnophila*, based on Goodall, E.C.A. et al. "The Essential Genome of Escherichia coli K-12." mBio 9.1 (2018): e02096-17.
 
 ## How to use the code
-Make sure all the necessary software and packages are installed. 
+Make sure all the necessary software and packages are installed (see requirements.txt for details). 
 Then, download the [raw data](https://doi.org/10.6084/m9.figshare.24249346) and run in the following order: 
 1. ```insertions_pipeline.sh```
 2. ```data_processing.R```
