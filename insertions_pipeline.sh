@@ -1,5 +1,6 @@
 #!/bin/bash
 # Author: Ildefonso Cases
+# Modified by: David Moyano Palazuelo
 echo "WARNING: Make sure you have the environment with all the dependencies installed." 
 #Concatenate all the FASTQ files in the current directory into a single file.
 echo "Concatenating all the .fastq..."
