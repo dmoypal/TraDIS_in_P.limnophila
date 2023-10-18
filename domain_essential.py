@@ -43,7 +43,7 @@ def generate_insertion_info(gene_positions, gene_chromosomes, main_insertions, p
             while i <= end - window_size:
                 insertions = [x for x in search_in if i <= x <= i + window_size]
                 index_ratio = round(len(insertions) / window_size, 4)
-                f.write(f'{gene}\t{start}-{end}\t{i}-{i + window_size}\t{len(insertions)}\t{index_ratio}\n')
+                f.write(f'{gene}\t{start}-{end}\t{i}-{i + window_size}\t{len(insertions)}\t{index_ratio}\n') # genes with windows with len(insertions) = 0 are reported as domain_essential
                 i += increase
     
             f.write(f'{gene}\t{start}-{end}\t-\t-\t-\t-\n')
