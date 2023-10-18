@@ -17,7 +17,7 @@ Then, download the [raw data](https://doi.org/10.6084/m9.figshare.24249346) and 
 
 This project has been developed thanks to the effort and contribution of the following individuals:
 
-- **[David Moyano Palazuelo]** - [Link to GitHub Profile](https://github.com/dmoypal)
-- **[Idelfonso Cases]** - [Link to GitHub Profile](https://github.com/collaborator1)
+- **David Moyano Palazuelo** - [Link to GitHub Profile](https://github.com/dmoypal)
+- **Idelfonso Cases**
 
 We appreciate everyone who has dedicated their time and expertise to improve this project and make it possible.
